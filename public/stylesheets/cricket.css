@@ -1,0 +1,27 @@
+table {
+    border: 3px solid black;
+}
+th {
+    width: 145px;
+}
+th:first-child {
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+tr, td {
+    border: 1px solid #d0cece;
+    text-align: center;
+    font-weight: 700;
+}
+
+thead {
+    font-size: 1.6em;
+}
+
+.cell_mark {
+    height: 40px;
+    width: 40px;
+    border:  2px solid rgb(140, 62, 62);
+    text-align: center;
+    font-size: 2.5rem;
+}
