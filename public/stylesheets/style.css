@@ -6,3 +6,20 @@ body {
 a {
   color: #00B7FF;
 }
+.flex {
+  display:flex;
+}
+.flex_c {
+  display: flex;
+  flex-direction: column;
+}
+.arround {
+  justify-content: space-around;
+}
+.grey {
+  background-color: grey;
+}
+#base_content {
+  margin: auto;
+  min-height: 100%;
+}
